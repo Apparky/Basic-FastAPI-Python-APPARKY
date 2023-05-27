@@ -103,6 +103,53 @@ INFO:     127.0.0.1:54208 - "GET / HTTP/1.1" 200 OK
 > 
 > This is how it looks like
 > 
-> ![]()
+> ![APIurls](ss/ss.PNG)
+> 
+> ![APIOutPut](ss/ss1.PNG)
+> 
+> 
+> Now got to this Link [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs) . The page will look like this
+> 
+> ![DocsWebPage](ss/ss2.PNG)
+> 
+> 
+> Now Click on `Try it out` and then Click on `Execute`
+> 
+> ![TryExecute](ss/ss3.PNG)
+> 
+> Then you'll see some message and a link has been displayed billow the `Execute` Button like this
+> 
+> ![ExecutedMessage](ss/ss4.PNG)
+> 
+> Now Copy the command from the `Curl`
+> 
+> ![CurlCommand](ss/ss5.PNG)
+```commandline
+curl -X 'GET' \
+  'http://127.0.0.1:8001/' \
+  -H 'accept: application/json'
+```
+
+> And Paste it on `GitBash` Terminal. You can see the message on the terminal like this
+> 
+> ![TerminalMessage](ss/ss6.PNG)
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> -------------------
+> 
+> To get more interesting projects follow our GitHub page at [Here](https://github.com/Apparky)
+> 
+> To get more interesting projects follow our Bitbucket page at [Here](https://bitbucket.org/apparky-web/workspace/overview)
+> 
+> To know more about [__APPARKY__](https://apparky.vercel.app/) Click [Here](https://apparky.vercel.app/)
+
+
+
+> 
 > 
 > 
