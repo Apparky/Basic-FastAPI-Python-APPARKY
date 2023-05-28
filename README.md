@@ -183,9 +183,9 @@ values = [
 > This is similar to Basic App, Except we return variable named `value` and pass a dictionary in it.
 > This is How the OutPut Looks like for Get Method
 > 
-> ![GetMethodO/T](ss/ss7.PNG)
+> [![GetMethodO/T](ss/ss7.PNG)](https://apparky.vercel.app/)
 > 
-> ![GetMethodO/T](ss/ss8.PNG)
+> [![GetMethodO/T](ss/ss8.PNG)](https://apparky.vercel.app/)
 > 
 > > Now got to this Link [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs) . The page will look like this
 > 
