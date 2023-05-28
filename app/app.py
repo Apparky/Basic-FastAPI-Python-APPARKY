@@ -9,6 +9,7 @@ async def root() -> dict:
     return {'Twinkle Twinkle': 'Little Star'}
 
 
+# Get Method to create a post
 @app.get("/val", tags=['VAL'])
 async def val() -> dict:
     return {'data': values}
