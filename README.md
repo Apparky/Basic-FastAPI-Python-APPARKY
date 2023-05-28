@@ -69,10 +69,11 @@ app = FastAPI()
 
 
 @app.get("/", tags=['ROOT'])
-def root() -> dict:
-    return {'Ping': 'Pong'}
-
+async def root() -> dict:
+    return {'Twinkle Twinkle': 'Little Star'}
 ```
+
+use of `async` before defining the function is good practice for `FastAPI`, and the function returns the `Dictionary` which is denoted as `dict`
 
 
 
@@ -135,8 +136,25 @@ curl -X 'GET' \
 > [![TerminalMessage](ss/ss6.PNG)](https://apparky.vercel.app/)
 > 
 > 
+> This is basic app by `FastAPI`
+> You can also
+> 
+> - Create
+> - Read
+> - Update
+> - Delete
+>
+> by using `FastAPI`
+> 
+> And the method we use to do for that are
+> 
+> - Get
+> - Post
+> - Put
+> - Delete
 > 
 > 
+> Let's see how the `Get` method is looks like
 > 
 > 
 > 
