@@ -86,7 +86,7 @@ async def root() -> dict:
 python main.py
 ```
 >
-> You'll see the server is running like this fashon
+> You'll see the server is running like this fashion
 > 
 ```commandline
 (venv) PS C:\Users\...\fastapi> python main.py
@@ -136,7 +136,7 @@ curl -X 'GET' \
 > [![TerminalMessage](ss/ss6.PNG)](https://apparky.vercel.app/)
 > 
 > 
-> This is basic app by `FastAPI`
+> This is basic app by [__FastAPI__](https://fastapi.tiangolo.com/lo/)
 > You can also
 > 
 > - Create
