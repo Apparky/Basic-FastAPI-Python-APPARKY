@@ -24,6 +24,22 @@ async def post_val(val: dict) -> dict:
     }
 
 
+# Put Method to Update a Post
+@app.put("/val{_id}", tags=['VAL'])
+async def put_val(_id, body: dict) -> dict:
+    for val in values:
+        if val['id'] == _id:
+            print(val['id'])
+            print(_id)
+            val['name'] = body['name']
+            return {
+                'data': f'Values with id {_id} has been updated'
+            }
+    return {
+        'data': f'id {_id} not Found'
+    }
+
+
 values = [
 
     {
