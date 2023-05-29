@@ -26,9 +26,9 @@ async def post_val(val: dict) -> dict:
 
 # Put Method to Update a Post
 @app.put("/val{_id}", tags=['VAL'])
-async def put_val(_id, body: dict) -> dict:
+async def put_val(_id:int, body: dict) -> dict:
     for val in values:
-        if val['id'] == _id:
+        if int(val['id']) == _id:
             print(val['id'])
             print(_id)
             val['name'] = body['name']
@@ -37,6 +37,21 @@ async def put_val(_id, body: dict) -> dict:
             }
     return {
         'data': f'id {_id} not Found'
+    }
+
+
+# Delete Method to Remove a post
+@app.delete("/val{_id}", tags=['VAL'])
+async def delete_val(_id: int) -> dict:
+    for val in values:
+        if val['id'] == _id:
+            values.remove(val)
+            return {
+                "data": f"id {_id} has been updated"
+            }
+
+    return {
+        "data": f"id {_id} not Found"
     }
 
 
