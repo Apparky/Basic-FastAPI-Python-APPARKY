@@ -73,7 +73,7 @@ async def root() -> dict:
     return {'Twinkle Twinkle': 'Little Star'}
 ```
 
-> use of `async` before defining the function is good practice for `FastAPI`, and the function returns the `Dictionary` which is denoted as `dict`
+> use of `async` before defining the function is good practice for [__FastAPI__](https://fastapi.tiangolo.com/lo/), and the function returns the `Dictionary` which is denoted as `dict`
 > 
 > 
 
