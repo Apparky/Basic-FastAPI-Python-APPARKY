@@ -156,7 +156,9 @@ curl -X 'GET' \
 > 
 > Let's see how the `Get` method is looks like
 > 
-> ## Get Method:
+> 
+
+## Get Method:
 > 
 > Create another function and do the same for the Basic App Creation just like this
 >
@@ -209,6 +211,24 @@ curl -X 'GET' \
 > And Paste it on `GitBash` Terminal. You can see the message on the terminal like this
 > 
 > [![TerminalMessage](ss/ss12.PNG)](https://apparky.vercel.app/)
+> 
+> 
+
+## Post Method
+> Create another function for `Post` just like this
+> 
+```commandline
+@app.post("/val", tags=['VAL'])
+async def post_val(val: dict) -> dict:
+    values.append(val)
+    return {
+        'data': 'Data Has been added Successfully'
+    }
+```
+
+> In this function a parameter has been assigned in a form of dictionary, by which we can save data
+> 
+> 
 > 
 > 
 

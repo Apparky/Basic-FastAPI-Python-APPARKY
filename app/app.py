@@ -44,7 +44,7 @@ async def put_val(_id:int, body: dict) -> dict:
 @app.delete("/val{_id}", tags=['VAL'])
 async def delete_val(_id: int) -> dict:
     for val in values:
-        if val['id'] == _id:
+        if int(val['id']) == _id:
             values.remove(val)
             return {
                 "data": f"id {_id} has been updated"
