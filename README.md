@@ -359,7 +359,7 @@ async def delete_val(_id: int) -> dict:
 > 
 > 
 > -------------------------------------------------------------------
-> -------------------------------------------------------------------
+> 
 > To get more interesting projects follow our GitHub page at [Here](https://github.com/Apparky)
 > 
 > To get more interesting projects follow our Bitbucket page at [Here](https://bitbucket.org/apparky-web/workspace/overview)
