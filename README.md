@@ -353,7 +353,7 @@ async def delete_val(_id: int) -> dict:
 > 
 > We are done.
 > 
-> Thanks and regards [Apparky](https://apparky.vercel.app/)
+> Thanks and regards [**Apparky**](https://apparky.vercel.app/)
 > 
 > 
 > 
