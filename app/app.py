@@ -23,7 +23,7 @@ async def post_val(val: dict) -> dict:
         'data': 'Data Has been added Successfully'
     }
 
-
+'''
 # Put Method to Update a Post
 @app.put("/val{_id}", tags=['VAL'])
 async def put_val(_id:int, body: dict) -> dict:
@@ -54,7 +54,7 @@ async def delete_val(_id: int) -> dict:
         "data": f"id {_id} not Found"
     }
 
-
+'''
 values = [
 
     {
