@@ -70,7 +70,7 @@ app = FastAPI()
 
 @app.get("/", tags=['ROOT'])
 async def root() -> dict:
-    return {'Twinkle Twinkle': 'Little Star'}
+    return {'Hello': 'FastAPI'}
 ```
 
 > use of `async` before defining the function is good practice for [__FastAPI__](https://fastapi.tiangolo.com/lo/), and the function returns the `Dictionary` which is denoted as `dict`
@@ -106,25 +106,25 @@ INFO:     127.0.0.1:54208 - "GET / HTTP/1.1" 200 OK
 > 
 > [![APIurls](ss/ss.PNG)](https://apparky.vercel.app/)
 > 
-> [![APIOutPut](ss/ss1.PNG)](https://apparky.vercel.app/)
+> [![APIOutPut](ss/ss28.PNG)](https://apparky.vercel.app/)
 > 
 > 
 > Now got to this Link [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs) . The page will look like this
 > 
-> [![DocsWebPage](ss/ss2.PNG)](https://apparky.vercel.app/)
+> [![DocsWebPage](ss/ss29.PNG)](https://apparky.vercel.app/)
 > 
 > 
 > Now Click on `Try it out` and then Click on `Execute`
 > 
-> [![TryExecute](ss/ss3.PNG)](https://apparky.vercel.app/)
+> [![TryExecute](ss/ss30.PNG)](https://apparky.vercel.app/)
 > 
 > Then you'll see some message and a link has been displayed billow the `Execute` Button like this
 > 
-> [![ExecutedMessage](ss/ss4.PNG)](https://apparky.vercel.app/)
+> [![ExecutedMessage](ss/ss31.PNG)](https://apparky.vercel.app/)
 > 
 > Now Copy the command from the `Curl`
 > 
-> [![CurlCommand](ss/ss5.PNG)](https://apparky.vercel.app/)
+> [![CurlCommand](ss/ss32.PNG)](https://apparky.vercel.app/)
 ```commandline
 curl -X 'GET' \
   'http://127.0.0.1:8001/' \
@@ -133,7 +133,7 @@ curl -X 'GET' \
 
 > And Paste it on `GitBash` Terminal. You can see the message on the terminal like this
 > 
-> [![TerminalMessage](ss/ss6.PNG)](https://apparky.vercel.app/)
+> [![TerminalMessage](ss/ss33.PNG)](https://apparky.vercel.app/)
 > 
 > 
 > This is basic app by [__FastAPI__](https://fastapi.tiangolo.com/lo/)
