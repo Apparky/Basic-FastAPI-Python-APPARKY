@@ -6,7 +6,7 @@ app = FastAPI()
 # Basic App
 @app.get("/", tags=['ROOT'])
 async def root() -> dict:
-    return {'Twinkle Twinkle': 'Little Star'}
+    return {'Hello': 'FastAPI'}
 
 
 # Get Method to Read a post
