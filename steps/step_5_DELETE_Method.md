@@ -30,9 +30,14 @@ async def delete_val(_id: int) -> dict:
 > 
 > 
 > 
+> [Click](step_1_basic_API.md) Here to Start from [Beginning](step_1_basic_API.md) 
+> 
+> [Click](../README.md) Here to go to main [Overview](../README.md) Page 
+> 
 > We are done.
 > 
 > Thanks and regards [**Apparky**](https://apparky.vercel.app/)
 > 
 > 
 > 
+> [Click](../README.md) Here to go to main [Overview](../README.md) Page 

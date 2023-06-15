@@ -39,4 +39,9 @@ async def put_val(_id: int, body: dict) -> dict:
 > [![PutRequestValue](../ss/ss23.PNG)](https://apparky.vercel.app/)
 > 
 > 
+> [Click](step_3_POST_Method.md) Here to go to [Previous](step_3_POST_Method.md) Step
+> [Click](step_5_DELETE_Method.md) Here to go to [Next](step_5_DELETE_Method.md) Step
 > 
+> 
+> 
+> [Click](../README.md) Here to go to main [Overview](../README.md) Page 
